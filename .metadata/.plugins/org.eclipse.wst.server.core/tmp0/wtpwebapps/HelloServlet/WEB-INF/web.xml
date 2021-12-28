@@ -9,13 +9,30 @@
 <servlet-name>Servlet1</servlet-name>
 <servlet-class>com.pack.Hello1</servlet-class>
 </servlet>
-
 <servlet-mapping>
 <servlet-name>Servlet1</servlet-name>
 <url-pattern>/google</url-pattern>
 <url-pattern>/aman</url-pattern>
 <url-pattern>/avnish</url-pattern>
 <url-pattern>/vishal</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Connect1</servlet-name>
+<servlet-class>com.pack.ConnectWithHTML</servlet-class>
+
+<init-param>
+<param-name>Student</param-name>
+<param-value>Sourav</param-value>
+</init-param>
+
+</servlet>
+
+<!-- servlet mapping is compulsory to get the config object  -->
+
+<servlet-mapping> 
+<servlet-name>Connect1</servlet-name>
+<url-pattern>/con1</url-pattern>
 </servlet-mapping>
 
 </web-app>
