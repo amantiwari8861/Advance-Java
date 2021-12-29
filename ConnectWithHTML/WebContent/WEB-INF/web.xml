@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ConnectWithHTML</display-name>
+  <welcome-file-list>
+    <welcome-file>Add.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>MeraServlet</servlet-name>
+  <servlet-class>s1.s2.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>MeraServlet</servlet-name>
+  <url-pattern>/AddServlet</url-pattern>
+  <url-pattern>/Add</url-pattern>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
