@@ -3,10 +3,51 @@
   <display-name>Test1</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <context-param>
+  <param-name>Driver</param-name>
+  <param-value>
+  com.mysql.cj.jdbc.Driver
+  </param-value>
+  </context-param>
+  <error-page>
+    <!-- Missing login -->
+    <error-code>401</error-code>
+    <location>/general-error.html</location>
+</error-page>
+<error-page>
+    <!-- Forbidden directory listing -->
+    <error-code>403</error-code>
+    <location>/general-error.html</location>
+</error-page>
+<error-page>
+    <!-- Missing resource -->
+    <error-code>404</error-code>
+    <location>/Error404.html</location>
+</error-page>
+<error-page>
+    <!-- Uncaught exception -->
+    <error-code>500</error-code>
+    <location>/general-error.html</location>
+</error-page>
+<error-page>
+    <!-- Unsupported servlet method -->
+    <error-code>503</error-code>
+    <location>/general-error.html</location>
+</error-page>
+  <!-- <servlet>
+        <servlet-name>comingsoon</servlet-name>
+        <servlet-class>com.pack.ComingSoonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>comingsoon</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping> -->
+    
+    <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html</mime-type>
+    </mime-mapping>
+    
+    
 </web-app>
