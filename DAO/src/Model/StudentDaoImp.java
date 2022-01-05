@@ -12,7 +12,7 @@ public class StudentDaoImp implements StudentDAO {
 		String Query="select * from userinfo;";
 		Connection con=ConnectionProvider.getConnection();
 		Statement st = con.createStatement();
-		ResultSet rs = st.executeQuery(Query);
+		ResultSet rs = st.executeQuery(Query);//result is in tabular form
 		ArrayList<StudentBean> udata=new ArrayList<StudentBean>();
 		while(rs.next())
 		{
@@ -23,5 +23,4 @@ public class StudentDaoImp implements StudentDAO {
 		}
 		return udata;
 	}
-
 }
