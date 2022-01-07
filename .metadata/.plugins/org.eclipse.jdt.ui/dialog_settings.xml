@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Aman_Tiwari\Downloads"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="F:\Advance JAVA\apache-tomcat-9.0.1\lib"/>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="completion_proposal_size">
@@ -65,6 +65,16 @@
 		<item key="DIALOG_Y_ORIGIN" value="9"/>
 		<item key="DIALOG_WIDTH" value="678"/>
 		<item key="DIALOG_HEIGHT" value="889"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item key="DIALOG_X_ORIGIN" value="640"/>
+		<item key="DIALOG_Y_ORIGIN" value="84"/>
+		<item key="DIALOG_WIDTH" value="658"/>
+		<item key="DIALOG_HEIGHT" value="661"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

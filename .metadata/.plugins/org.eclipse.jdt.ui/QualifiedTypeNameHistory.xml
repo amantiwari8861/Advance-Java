@@ -18,4 +18,8 @@
     <fullyQualifiedTypeName name="Model.StudentDAO"/>
     <fullyQualifiedTypeName name="Model.StudentBean"/>
     <fullyQualifiedTypeName name="Model.StudentDaoImp"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 </qualifiedTypeNameHistroy>
