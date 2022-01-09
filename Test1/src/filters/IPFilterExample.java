@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class IPFilterExample implements Filter{
 	public IPFilterExample() {}
-	public final static String IP = "127.0.0.1";
+	public final static String IP = "192.168.56.1";
 	private FilterConfig filterConfig;
 	
 	public void init(FilterConfig config) throws ServletException{

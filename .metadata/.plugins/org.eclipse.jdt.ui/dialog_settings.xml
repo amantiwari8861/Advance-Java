@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.lastextjar" value="F:\Advance JAVA\apache-tomcat-9.0.1\lib"/>
+	<item key="ProjectSelectionDialog.show_all" value="true"/>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="completion_proposal_size">
@@ -34,8 +35,8 @@
 		</section>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="569"/>
-		<item key="DIALOG_Y_ORIGIN" value="270"/>
+		<item key="DIALOG_X_ORIGIN" value="94"/>
+		<item key="DIALOG_Y_ORIGIN" value="156"/>
 		<item key="DIALOG_WIDTH" value="801"/>
 		<item key="DIALOG_HEIGHT" value="381"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
