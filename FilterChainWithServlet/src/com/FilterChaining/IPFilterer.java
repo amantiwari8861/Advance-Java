@@ -8,18 +8,18 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 public class IPFilterer implements Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
 		System.out.println("do filter called of IPFilter");
 		InetAddress ia = InetAddress.getLocalHost();
+//		System.out.println("local ip in ipv4"+ia.getHostAddress());
+//		System.out.println("ip address in ipv6 : "+request.getRemoteAddr());
 		
 		if (ia.getHostAddress().startsWith("192.168") || request.getRemoteAddr().startsWith("192.168")) {
 			System.out.println("valid ip ");
-			chain.doFilter(request, response);
+			chain.doFilter(request, response);//calls next filter in the row
 		} else {
 			System.out.println("invalid ip");
 			request.getRequestDispatcher("Error404.html").forward(request, response);
@@ -28,7 +28,7 @@ public class IPFilterer implements Filter {
 	}
 
 	public void init(FilterConfig fConfig) throws ServletException {
-		fConfig.getServletContext().log("initialized logging of ipfilter");
+//		fConfig.getServletContext().log("initialized logging of ipfilter");
 		System.out.println("initialized ipfilter");
 	}
 }
