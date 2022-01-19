@@ -13,4 +13,6 @@
 			<item value="org.eclipse.wst.jsdt.ui.java"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>
