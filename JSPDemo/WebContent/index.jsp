@@ -14,6 +14,8 @@
 	System.out.print("java code ran");
 	
 	out.print("hello java");
+	
+	
 	//Out.print("hello");
 	
 	%>
