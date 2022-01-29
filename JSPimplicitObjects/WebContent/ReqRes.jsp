@@ -21,6 +21,5 @@
 	<h1> the clg is ${clg}  <%=request.getAttribute("clg")%> hi</h1>
 <%-- 	<h1> the name is ${naam} <%=request.getAttribute("naam")%> hi</h1>  naam is null--%>
 	
-	
 </body>
 </html>
