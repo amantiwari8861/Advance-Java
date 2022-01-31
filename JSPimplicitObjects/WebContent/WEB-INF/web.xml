@@ -5,7 +5,7 @@
 	version="4.0">
 	<display-name>JSPimplicitObjects</display-name>
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>PageContext.jsp</welcome-file>
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>MeraServlet</servlet-name>

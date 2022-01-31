@@ -9,23 +9,25 @@
 </head>
 <body>
 
-	<% request.setAttribute("naam", "kamal"); %>
-	<%=request.getAttribute("naam")%>
-	<h1>Welcome in Our Website </h1>
+<%-- 	<% request.setAttribute("naam", "kamal"); %> --%>
+<%-- 	<%=request.getAttribute("naam")%> --%>
+<!-- 	<h1>Welcome in Our Website </h1> -->
 	<!-- in jsp there are 9 implicit objects -->
 	<%
 	// import java.time.LocalDate; we can't do this 
-	System.out.print("java code ran");
-	out.print("hello java at  :");
+// 	System.out.print("java code ran");
+// 	out.print("hello java at  :");
 	//Out.print("hello"); //error
-	Date ld=new Date();
-	out.print(ld);
+// 	Date ld=new Date();
+// 	out.print(ld);
 	%>
 	
-	<form action="ReqRes.jsp" method="post">
+	<form action="ExceptionDemo.jsp" method="post">
 	<!--<form action="NewFile.jsp" method="get">-->
 	Name : <input type="text" name="fname"> 
 	Id : <input type="text" name="id">
+	num1 : <input type="text" name="num1"> 
+	num2 : <input type="text" name="num2">
 	<input type="submit">
 	</form>
 

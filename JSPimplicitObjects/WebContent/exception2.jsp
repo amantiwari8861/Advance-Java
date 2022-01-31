@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"  isErrorPage="true" %>
+    pageEncoding="ISO-8859-1" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +23,7 @@ hiiiii
 // 	}
 out.print(num[3]);
 	%>
-		<%=exception%>
+<%-- 		<%=exception%> --%>
 		
 		h2 hello
 		
