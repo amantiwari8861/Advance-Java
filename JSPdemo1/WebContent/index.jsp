@@ -20,7 +20,7 @@
 	--%>
 	<%-- jsp ka comment --%>
 	
-
+<h1>Hello everyone i am Index.jsp</h1>
 
 </body>
 </html>
