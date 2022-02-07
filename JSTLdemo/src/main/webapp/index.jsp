@@ -22,8 +22,8 @@ In addition to declaring the tag libraries, tutorial examples access the JSTL
   <a href="https://repo1.maven.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar">here</a>
   </h1>
   
-	 <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"  
-     url="jdbc:mysql://localhost/servletcrud"  
+	 <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
+     url="jdbc:mysql://localhost:3306/servletcrud"  
      user="root"  password="1234"/>  
 	
 	<sql:query dataSource = "${db}" var = "result">
