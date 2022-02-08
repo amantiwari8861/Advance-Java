@@ -49,5 +49,7 @@ In addition to declaring the tag libraries, tutorial examples access the JSTL
             </tr>
          </c:forEach>
       </table>
+      
+      <a href="test.jsp">go on test</a>
 </body>
 </html>

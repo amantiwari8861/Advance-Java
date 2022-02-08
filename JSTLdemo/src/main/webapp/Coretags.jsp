@@ -1,11 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
-    
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -47,17 +46,10 @@
 </c:otherwise>
 </c:choose>
 
-<% int arr[]={10,20,30,40,50};
-session.setAttribute("array", arr);
-
-%>
 <%-- <c:forEach var="j" begin="1" end="3">   --%>
 <%--    Item <c:out value="${j}"/><p>   --%>
 <%-- </c:forEach> --%>
 
-<c:forEach var="e" items="${session.getAttribute('array')}" step="1">
-<p>the element is ${e}  </p>
-</c:forEach>
 
 </body>
 </html>
