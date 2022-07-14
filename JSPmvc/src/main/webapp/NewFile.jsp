@@ -9,9 +9,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>All Employees List</title>
-<link rel="stylesheet" href="Datatable/bootstrap.min.css">
-<link rel="stylesheet" href="Datatable/dataTables.bootstrap5.min.css">
+<!-- <title>All Employees List</title> -->
+<!-- <link rel="stylesheet" href="Datatable/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href="Datatable/dataTables.bootstrap5.min.css"> -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.12.1/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.12.1/datatables.min.js"></script>
 </head>
 <body>
 

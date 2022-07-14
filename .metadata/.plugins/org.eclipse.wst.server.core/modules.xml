@@ -23,4 +23,5 @@
   <module moduleId="org.eclipse.jst.jee.server:FilterChainDemo" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Images" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:CRUDDemo" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:StudendGrevience" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>

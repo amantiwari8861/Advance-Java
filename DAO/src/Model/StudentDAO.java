@@ -5,6 +5,6 @@ import java.util.ArrayList;
 
 public interface StudentDAO {
 
-	public abstract ArrayList<StudentBean> getAllStudent() throws SQLException, ClassNotFoundException;
+	public abstract ArrayList<Student> getAllStudent() throws SQLException, ClassNotFoundException;
 	
 }

@@ -8,15 +8,15 @@ import java.util.ArrayList;
 
 public class StudentDaoImp implements StudentDAO {
 	
-	public ArrayList<StudentBean> getAllStudent() throws SQLException, ClassNotFoundException {		
+	public ArrayList<Student> getAllStudent() throws SQLException, ClassNotFoundException {		
 		String Query="select * from userinfo;";
 		Connection con=ConnectionProvider.getConnection();
 		Statement st = con.createStatement();
 		ResultSet rs = st.executeQuery(Query);//result is in tabular form
-		ArrayList<StudentBean> udata=new ArrayList<StudentBean>();
+		ArrayList<Student> udata=new ArrayList<Student>();
 		while(rs.next())
 		{
-			StudentBean stdata=new StudentBean();
+			Student stdata=new Student();
 			stdata.setUsername(rs.getString("username"));
 			stdata.setPassword(rs.getString("password"));
 			udata.add(stdata);

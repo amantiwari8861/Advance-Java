@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import Model.StudentBean;
+import Model.Student;
 import Model.StudentDAO;
 import Model.StudentDaoImp;
 
@@ -18,9 +18,9 @@ public class DaoOperationDemo extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		StudentDAO stobj=new StudentDaoImp();//overriding
-		ArrayList<StudentBean> students=null;
+		ArrayList<Student> students=null;
 		try {
-			students = stobj.getAllStudent();//getting arraylist object of StudentBean Class
+			students = stobj.getAllStudent();//getting arraylist object of Student Class
 		} catch (SQLException | ClassNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -28,7 +28,7 @@ public class DaoOperationDemo extends HttpServlet {
 //			System.out.println("username : "+st.getUsername()+" Password :"+st.getPassword());
 //		});
 		
-		for (StudentBean st : students) {
+		for (Student st : students) {
 			System.out.println("username : "+st.getUsername()+" Password :"+st.getPassword());
 		}
 	}

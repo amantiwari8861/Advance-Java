@@ -21,7 +21,7 @@ public class CountVisitor implements Filter {
 		System.out.println("do filter called of CountVisitor");
 		System.out.println("Total visitors " + (++count));
 //		chain.doFilter(req, res); //error java.lang.IllegalStateException: Cannot forward after response has been committed
-		req.getRequestDispatcher("Success.html").forward(req, res);
+//		req.getRequestDispatcher("Success.html").forward(req, res);
 //		((HttpServletResponse)res).sendError(500, "chala ja ");
 //		chain.doFilter(req, res); same error
 		System.out.println("back to countvisitorfilter");

@@ -14,7 +14,7 @@ public class IPFilterer implements Filter {
 			throws IOException, ServletException {
 		System.out.println("do filter called of IPFilter");
 		InetAddress ia = InetAddress.getLocalHost();
-//		System.out.println("local ip in ipv4"+ia.getHostAddress());
+//		System.out.println("local ip in ipv4 : "+ia.getHostAddress());
 //		System.out.println("ip address in ipv6 : "+request.getRemoteAddr());
 		
 		if (ia.getHostAddress().startsWith("192.168") || request.getRemoteAddr().startsWith("192.168")) {
@@ -25,6 +25,8 @@ public class IPFilterer implements Filter {
 			request.getRequestDispatcher("Error404.html").forward(request, response);
 		}
 		System.out.println("back to ipfilter");
+//		request.getRequestDispatcher("/LoginServlet").forward(request, response);
+
 	}
 
 	public void init(FilterConfig fConfig) throws ServletException {

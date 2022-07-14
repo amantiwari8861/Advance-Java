@@ -15,7 +15,8 @@ public class LoginServlet extends HttpServlet {
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		PrintWriter out = response.getWriter();
 		response.setContentType("text/html");
-		out.print("welcome to Login Servlet");
+		out.print("welcome to Login Servlet <br>");
+		response.getWriter().append("Hurray !! U r succesfully Logged in");
 		out.close();
 	}
 

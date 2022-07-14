@@ -1,7 +1,7 @@
 package com.pack;
 
 
-public class StudentBean {
+public class Student {
 
 //	private int id;
 //	private String name;
